@@ -10,11 +10,13 @@ import { environment} from 'src/environments/environment';
 
 import { NgbModule  } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TodoListComponent } from './todo/todo-list/todo-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
