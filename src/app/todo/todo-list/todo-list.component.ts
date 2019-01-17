@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Alert } from 'selenium-webdriver';
 
 @Component({
   selector: 'app-todo-list',
@@ -10,6 +11,10 @@ export class TodoListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  clickAddTodo(){
+    alert('hola');
   }
 
 }
