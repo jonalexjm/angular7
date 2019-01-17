@@ -16,5 +16,6 @@ export class TodoListComponent implements OnInit {
   clickAddTodo(){
     alert('hola');
   }
+  
 
 }
