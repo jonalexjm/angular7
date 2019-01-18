@@ -30,6 +30,7 @@ import { TodoFormComponent } from './todo/todo-form/todo-form.component';
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[TodoFormComponent]
 })
 export class AppModule { }
